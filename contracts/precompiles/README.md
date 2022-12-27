@@ -1,0 +1,1 @@
+This dir contains all precompiled contract interfaces specified from the [avalanche subnet docs](https://docs.avax.network/subnets/customize-a-subnet#minting-native-coins) and the [subnet-evm repo](https://github.com/ava-labs/subnet-evm/tree/master/contract-examples/contracts)

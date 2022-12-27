@@ -1,0 +1,12 @@
+{
+  "root": true,
+  "extends": [
+    "@buildwithtoki/eslint-config-base",
+    "@buildwithtoki/eslint-config-typescript"
+  ],
+  "parserOptions": {
+    "project": [
+      "./tsconfig.json"
+    ]
+  }
+}

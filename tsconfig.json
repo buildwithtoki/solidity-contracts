@@ -1,0 +1,15 @@
+{
+  "extends": "@buildwithtoki/tsconfig/tsconfig.json",
+  "compilerOptions": {
+    "target": "ES2021",
+    "module": "commonjs",
+  },
+  "include": [
+    "./scripts/**/*.ts",
+    "./tasks/**/*.ts",
+    "./test/**/*.ts"
+  ],
+  "files": [
+    "./hardhat.config.ts"
+  ]
+}

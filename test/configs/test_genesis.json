@@ -1,0 +1,71 @@
+{
+    "config": {
+        "chainId": 99999,
+        "homesteadBlock": 0,
+        "eip150Block": 0,
+        "eip150Hash": "0x2086799aeebeae135c246c65021c82b4e15a2c451340993aacfd2751886514f0",
+        "eip155Block": 0,
+        "eip158Block": 0,
+        "byzantiumBlock": 0,
+        "constantinopleBlock": 0,
+        "petersburgBlock": 0,
+        "istanbulBlock": 0,
+        "muirGlacierBlock": 0,
+        "subnetEVMTimestamp": 0,
+        "feeConfig": {
+            "gasLimit": 8000000,
+            "targetBlockRate": 2,
+            "minBaseFee": 25000000000,
+            "targetGas": 15000000,
+            "baseFeeChangeDenominator": 36,
+            "minBlockGasCost": 0,
+            "maxBlockGasCost": 1000000,
+            "blockGasCostStep": 200000
+        },
+        "contractDeployerAllowListConfig": {
+            "blockTimestamp": 0,
+            "adminAddresses": [
+                "0x6A2F58b449Da3ae1E231e0E059CcF75631422Fab"
+            ]
+        },
+        "contractNativeMinterConfig": {
+            "blockTimestamp": 0,
+            "adminAddresses": [
+                "0x6A2F58b449Da3ae1E231e0E059CcF75631422Fab"
+            ]
+        },
+        "feeManagerConfig": {
+            "blockTimestamp": 0,
+            "adminAddresses": [
+                "0x6A2F58b449Da3ae1E231e0E059CcF75631422Fab"
+            ]
+        }
+    },
+    "nonce": "0x0",
+    "timestamp": "0x0",
+    "extraData": "0x",
+    "gasLimit": "0x7a1200",
+    "difficulty": "0x0",
+    "mixHash": "0x0000000000000000000000000000000000000000000000000000000000000000",
+    "coinbase": "0x0000000000000000000000000000000000000000",
+    "alloc": {
+        "6a2f58b449da3ae1e231e0e059ccf75631422fab": {
+            "balance": "0x5af3107000000000000000000"
+        },
+        "0xE96D4B5271aF7F84074f6313778f2f9803F15930": {
+            "balance": "0x5af31070000"
+        },
+        "0x839B024eE23eDccAaF9965007dD7828511f875ca": {
+            "balance": "0x5af31070000"
+        },
+        "0x42bee2301aac03524061ef323D7cd683CC2A9aE1": {
+            "balance": "0x5af31070000"
+        }
+    },
+    "airdropHash": "0x0000000000000000000000000000000000000000000000000000000000000000",
+    "airdropAmount": null,
+    "number": "0x0",
+    "gasUsed": "0x0",
+    "parentHash": "0x0000000000000000000000000000000000000000000000000000000000000000",
+    "baseFeePerGas": null
+}

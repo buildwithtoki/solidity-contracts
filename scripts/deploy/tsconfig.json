@@ -1,0 +1,11 @@
+{
+  "extends": "@buildwithtoki/tsconfig/tsconfig.json",
+  "compilerOptions": {
+    "baseUrl": "./src",
+    "outDir": "dist",
+    "module": "esnext"
+  },
+  "include": [
+    "./src/**/*.ts"
+  ]
+}

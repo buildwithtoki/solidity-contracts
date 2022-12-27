@@ -1,0 +1,27 @@
+{
+  "name": "@buildwithtoki/blockchain-contracts-deploy-helper",
+  "version": "0.1.0",
+  "license": "UNLICENSED",
+  "type": "module",
+  "scripts": {
+    "build": "rm -rf dist/ && tsc",
+    "watch": "tsc --watch",
+    "start": "node ./dist/scripts/deploy/src/index.js"
+  },
+  "devDependencies": {
+    "@buildwithtoki/eslint-config-base": "^0.13.0",
+    "@buildwithtoki/eslint-config-typescript": "^0.15.0",
+    "@buildwithtoki/tsconfig": "^0.4.0",
+    "@types/node": "^16",
+    "@typescript-eslint/eslint-plugin": "^5.36.2",
+    "@typescript-eslint/parser": "^5.36.2",
+    "eslint": "^8.23.0",
+    "typescript": "^4.8.3"
+  },
+  "dependencies": {
+    "@anders-t/ethers-ledger": "^1.0.4",
+    "@aws-sdk/client-secrets-manager": "^3.181.0",
+    "dotenv": "^16.0.3",
+    "ethers": "^5.6.9"
+  }
+}

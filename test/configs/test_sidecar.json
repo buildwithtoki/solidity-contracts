@@ -1,0 +1,9 @@
+{
+    "Name": "test",
+    "VM": "SubnetEVM",
+    "VMVersion": "v0.4.3",
+    "Subnet": "test",
+    "TokenName": "TEST",
+    "ChainID": "",
+    "Version": "1.0.0"
+}

@@ -1,0 +1,28 @@
+
+{
+    "creatorAddress": "0xBc9C525e9643773C3d72c7C5fBfEbB239d7fcF76",
+    "rewardTierNames": [
+        "Reward Tier 1",
+        "Reward Tier 2",
+        "Reward Tier 3"
+    ],
+
+    "requiredRewardAmounts": [
+        1000,
+        2000,
+        3000
+    ],
+
+    "uris": [
+        "URI_1",
+        "URI_2",
+        "URI_3"
+    ],
+
+    "maxTotalSupplies": [
+        10,
+        100,
+        1000
+    ]
+
+}
